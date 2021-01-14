@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/floyd-app/static/css/main.4295bfc7.chunk.css",
+    "main.js": "/floyd-app/static/js/main.8e392cd5.chunk.js",
+    "main.js.map": "/floyd-app/static/js/main.8e392cd5.chunk.js.map",
+    "runtime-main.js": "/floyd-app/static/js/runtime-main.02824337.js",
+    "runtime-main.js.map": "/floyd-app/static/js/runtime-main.02824337.js.map",
+    "static/js/2.e6a42584.chunk.js": "/floyd-app/static/js/2.e6a42584.chunk.js",
+    "static/js/2.e6a42584.chunk.js.map": "/floyd-app/static/js/2.e6a42584.chunk.js.map",
+    "static/js/3.5672c848.chunk.js": "/floyd-app/static/js/3.5672c848.chunk.js",
+    "static/js/3.5672c848.chunk.js.map": "/floyd-app/static/js/3.5672c848.chunk.js.map",
+    "index.html": "/floyd-app/index.html",
+    "static/css/main.4295bfc7.chunk.css.map": "/floyd-app/static/css/main.4295bfc7.chunk.css.map",
+    "static/js/2.e6a42584.chunk.js.LICENSE.txt": "/floyd-app/static/js/2.e6a42584.chunk.js.LICENSE.txt",
+    "static/media/background.c3be8a40.png": "/floyd-app/static/media/background.c3be8a40.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02824337.js",
+    "static/js/2.e6a42584.chunk.js",
+    "static/css/main.4295bfc7.chunk.css",
+    "static/js/main.8e392cd5.chunk.js"
+  ]
+}
