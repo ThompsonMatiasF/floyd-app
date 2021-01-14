@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather.tsx Should match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col md:flex-row justify-between items-stretch sm:items-center md:items-stretch rounded-b-2xl w-auto sm:w-1/2 md:w-auto"
+  >
+    <div
+      class="flex flex-col items-center sm:items-stretch font-lg p-4 text-2xl flex-1 text-center md:text-left"
+    >
+      <span
+        class="text-5xl font-bold"
+      >
+        Don Torcuato
+        <span
+          class="text-3xl font-light"
+        >
+          , 
+          Argentina
+        </span>
+      </span>
+      <span
+        class="italic font-light flex-1 pt-2 font-bold capitalize"
+      >
+        jueves 14
+      </span>
+      <span
+        class="font-bold uppercase"
+      >
+        cielo claro
+      </span>
+    </div>
+    <div
+      class="flex flex-row justify-center items-center bg-blue-500 pl-4 py-2 rounded-b-2xl"
+    >
+      <div
+        class="flex flex-col justify-center font-bold text-center"
+      >
+        <span
+          class="text-6xl md:text-9xl"
+        >
+          26
+          º
+        </span>
+        <span
+          class="text-xl"
+        >
+          25
+          º / 
+          27
+          º
+        </span>
+      </div>
+      <img
+        alt="cielo claro"
+        src="http://openweathermap.org/img/wn/01d@4x.png"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastDay.tsx should match snapshot 1`] = `
+<div>
+  <div
+    class="w-full md:w-auto flex flex-row items-center my-4"
+    data-testid="forecast-day"
+    style="border-radius: 50px;"
+  >
+    <div
+      class="bg-blue-500"
+      style="border-radius: 50px;"
+    >
+      <img
+        alt="cielo claro"
+        src="http://openweathermap.org/img/wn/01d.png"
+      />
+    </div>
+    <div
+      class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+    >
+      <div
+        class="inline-block md:block capitalize"
+      >
+        Wednesday 13
+      </div>
+      <span
+        class="inline md:hidden"
+      >
+         - 
+      </span>
+      <div
+        class="inline-block md:block"
+      >
+        <span
+          class="font-bold"
+        >
+          25
+          º
+        </span>
+         / 
+        <span
+          class="font-bold"
+        >
+          27
+          º
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

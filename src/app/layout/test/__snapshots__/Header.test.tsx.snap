@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.tsx should match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-row justify-between items-end py-4 px-8 md:px-0"
+  >
+    <span
+      class="font-bold text-3xl md:text-5xl"
+      style="font-family: Berkshire Swash;"
+    >
+      <span
+        class="text-red-500"
+      >
+        floyd
+      </span>
+       app
+    </span>
+    <span
+      class="uppercase font-bold text:xl md:text-2xl"
+    >
+      January 2021
+    </span>
+  </div>
+</div>
+`;

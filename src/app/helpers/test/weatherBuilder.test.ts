@@ -1,0 +1,420 @@
+import { cityWeatherBuilder } from 'app/helpers'
+
+const restData = {
+  weather: {
+    coord: {
+      lon: -58.6162,
+      lat: -34.4924,
+    },
+    weather: [
+      {
+        id: 800,
+        main: 'Clear',
+        description: 'cielo claro',
+        icon: '01d',
+      },
+    ],
+    base: 'stations',
+    main: {
+      temp: 26.89,
+      feels_like: 22.1,
+      temp_min: 25,
+      temp_max: 27.78,
+      pressure: 1021,
+      humidity: 18,
+    },
+    visibility: 10000,
+    wind: {
+      speed: 4.12,
+      deg: 90
+    },
+    clouds: {
+      all: 0
+    },
+    dt: 1610561827,
+    sys: {
+      type: 1,
+      id: 8232,
+      country: 'AR',
+      sunrise: 1610528160,
+      sunset: 1610579404,
+    },
+    timezone: -10800,
+    id: 3435010,
+    name: 'Don Torcuato',
+    cod: 200,
+  },
+  forecast: {
+    lat: -34.4848,
+    lon: -58.612,
+    timezone: 'America/Argentina/Buenos_Aires',
+    timezone_offset: -10800,
+    daily: [
+      {
+        dt: 1610467200,
+        sunrise: 1610441703,
+        sunset: 1610493013,
+        temp: {
+          day: 25.12,
+          min: 18.75,
+          max: 26.44,
+          night: 22.03,
+          eve: 23.55,
+          morn: 19.44,
+        },
+        feels_like: {
+          day: 20.64,
+          night: 17.17,
+          eve: 18.93,
+          morn: 13.89,
+        },
+        pressure: 1019,
+        humidity: 18,
+        dew_point: -2.33,
+        wind_speed: 3.38,
+        wind_deg: 74,
+        weather: [
+          {
+            id: 803,
+            main: 'Clouds',
+            description: 'muy nuboso',
+            icon: '04d',
+          },
+        ],
+        clouds: 54,
+        pop: 0,
+        uvi: 13.64,
+      },
+      {
+        dt: 1610553600,
+        sunrise: 1610528160,
+        sunset: 1610579402,
+        temp: {
+          day: 27.46,
+          min: 18.83,
+          max: 29.09,
+          night: 24.72,
+          eve: 25.78,
+          morn: 19.12,
+        },
+        feels_like: {
+          day: 23.38,
+          night: 19.63,
+          eve: 20.73,
+          morn: 15.55,
+        },
+        pressure: 1019,
+        humidity: 20,
+        dew_point: 2.69,
+        wind_speed: 3.55,
+        wind_deg: 91,
+        weather: [
+          {
+            id: 800,
+            main: 'Clear',
+            description: 'cielo claro',
+            icon: '01d',
+          },
+        ],
+        clouds: 0,
+        pop: 0,
+        uvi: 13.66,
+      },
+      {
+        dt: 1610640000,
+        sunrise: 1610614617,
+        sunset: 1610665788,
+        temp: {
+          day: 29.25,
+          min: 19.52,
+          max: 30.8,
+          night: 27.12,
+          eve: 27.03,
+          morn: 19.53,
+        },
+        feels_like: {
+          day: 24.51,
+          night: 24.9,
+          eve: 22.85,
+          morn: 15.69,
+        },
+        pressure: 1017,
+        humidity: 21,
+        dew_point: 5.34,
+        wind_speed: 5.06,
+        wind_deg: 65,
+        weather: [
+          {
+            id: 800,
+            main: 'Clear',
+            description: 'cielo claro',
+            icon: '01d',
+          },
+        ],
+        clouds: 0,
+        pop: 0,
+        uvi: 13.5,
+      },
+      {
+        dt: 1610726400,
+        sunrise: 1610701075,
+        sunset: 1610752173,
+        temp: {
+          day: 24.64,
+          min: 20.82,
+          max: 27.6,
+          night: 25.5,
+          eve: 27.6,
+          morn: 20.82,
+        },
+        feels_like: {
+          day: 24.66,
+          night: 27.28,
+          eve: 28.12,
+          morn: 18.08,
+        },
+        pressure: 1010,
+        humidity: 52,
+        dew_point: 14.19,
+        wind_speed: 1.84,
+        wind_deg: 34,
+        weather: [
+          {
+            id: 500,
+            main: 'Rain',
+            description: 'lluvia ligera',
+            icon: '10d',
+          },
+        ],
+        clouds: 100,
+        pop: 0.74,
+        rain: 1.17,
+        uvi: 10.53,
+      },
+      {
+        dt: 1610812800,
+        sunrise: 1610787534,
+        sunset: 1610838556,
+        temp: {
+          day: 26.86,
+          min: 23.52,
+          max: 28.25,
+          night: 25.94,
+          eve: 28.25,
+          morn: 23.52,
+        },
+        feels_like: {
+          day: 29.2,
+          night: 25.56,
+          eve: 29.36,
+          morn: 25.27,
+        },
+        pressure: 1004,
+        humidity: 62,
+        dew_point: 19.02,
+        wind_speed: 1.25,
+        wind_deg: 21,
+        weather: [
+          {
+            id: 501,
+            main: 'Rain',
+            description: 'lluvia moderada',
+            icon: '10d',
+          },
+        ],
+        clouds: 100,
+        pop: 0.96,
+        rain: 11.18,
+        uvi: 2.94,
+      },
+      {
+        dt: 1610899200,
+        sunrise: 1610873993,
+        sunset: 1610924937,
+        temp: {
+          day: 23.99,
+          min: 18.58,
+          max: 27.44,
+          night: 24.89,
+          eve: 27.44,
+          morn: 18.58,
+        },
+        feels_like: {
+          day: 20.35,
+          night: 20.81,
+          eve: 22.47,
+          morn: 16.27,
+        },
+        pressure: 1009,
+        humidity: 42,
+        dew_point: 10.52,
+        wind_speed: 5.38,
+        wind_deg: 216,
+        weather: [
+          {
+            id: 800,
+            main: 'Clear',
+            description: 'cielo claro',
+            icon: '01d',
+          },
+        ],
+        clouds: 1,
+        pop: 0,
+        uvi: 3,
+      },
+      {
+        dt: 1610985600,
+        sunrise: 1610960452,
+        sunset: 1611011317,
+        temp: {
+          day: 25.66,
+          min: 18.73,
+          max: 28.67,
+          night: 23,
+          eve: 26.74,
+          morn: 18.73,
+        },
+        feels_like: {
+          day: 21.28,
+          night: 19.91,
+          eve: 22.38,
+          morn: 15.21,
+        },
+        pressure: 1015,
+        humidity: 21,
+        dew_point: 1.73,
+        wind_speed: 3.79,
+        wind_deg: 185,
+        weather: [
+          {
+            id: 800,
+            main: 'Clear',
+            description: 'cielo claro',
+            icon: '01d',
+          },
+        ],
+        clouds: 0,
+        pop: 0,
+        uvi: 3,
+      },
+      {
+        dt: 1611072000,
+        sunrise: 1611046912,
+        sunset: 1611097695,
+        temp: {
+          day: 24.63,
+          min: 19,
+          max: 27.13,
+          night: 23.5,
+          eve: 26.2,
+          morn: 19,
+        },
+        feels_like: {
+          day: 21.85,
+          night: 21.6,
+          eve: 23.22,
+          morn: 17,
+        },
+        pressure: 1015,
+        humidity: 37,
+        dew_point: 9.37,
+        wind_speed: 3.64,
+        wind_deg: 83,
+        weather: [
+          {
+            id: 800,
+            main: 'Clear',
+            description: 'cielo claro',
+            icon: '01d',
+          },
+        ],
+        clouds: 0,
+        pop: 0,
+        uvi: 3,
+      }
+    ]
+  },
+}
+
+const finalData = {
+  location: {
+    id: 3435010,
+    country: {
+      id: 'AR',
+      name: 'Argentina',
+    },
+    city: 'Don Torcuato',
+    coord: {
+      lat: -34.4924,
+      lon: -58.6162,
+    },
+  },
+  weather: {
+    date: 1610561827,
+    description: 'cielo claro',
+    icon: '01d',
+    temp: {
+      main: 26,
+      min: 25,
+      max: 27,
+    },
+  },
+  forecast: [
+    {
+      date: 1610553600,
+      description: 'cielo claro',
+      icon: '01d',
+      temp: {
+        main: 27,
+        min: 18,
+        max: 29,
+      },
+    },
+    {
+      date: 1610640000,
+      description: 'cielo claro',
+      icon: '01d',
+      temp: {
+        main: 29,
+        min: 19,
+        max: 30,
+      },
+    },
+    {
+      date: 1610726400,
+      description: 'lluvia ligera',
+      icon: '10d',
+      temp: {
+        main: 24,
+        min: 20,
+        max: 27,
+      },
+    },
+    {
+      date: 1610812800,
+      description: 'lluvia moderada',
+      icon: '10d',
+      temp: {
+        main: 26,
+        min: 23,
+        max: 28,
+      },
+    },
+    {
+      date: 1610899200,
+      description: 'cielo claro',
+      icon: '01d',
+      temp: {
+        main: 23,
+        min: 18,
+        max: 27,
+      },
+    },
+  ],
+}
+
+describe('weatherBuilder.tsx', () => {
+  it('Should match formatted data', () => {
+    expect(cityWeatherBuilder(restData)).toEqual(finalData)
+  })
+})

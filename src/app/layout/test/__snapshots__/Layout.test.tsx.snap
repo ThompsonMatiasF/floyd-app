@@ -1,0 +1,734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout.tsx should match snapshot 1`] = `
+<div>
+  <div
+    style="background-image: url(background.png); background-repeat: no-repeat; background-size: cover; background-attachment: scroll;"
+  >
+    <div
+      class="container mx-auto"
+    >
+      <div
+        class="flex flex-col h-screen overflow-y-auto"
+      >
+        <div
+          class="flex flex-row justify-between items-end py-4 px-8 md:px-0"
+        >
+          <span
+            class="font-bold text-3xl md:text-5xl"
+            style="font-family: Berkshire Swash;"
+          >
+            <span
+              class="text-red-500"
+            >
+              floyd
+            </span>
+             app
+          </span>
+          <span
+            class="uppercase font-bold text:xl md:text-2xl"
+          >
+            January 2021
+          </span>
+        </div>
+        <div
+          class="flex flex-1 flex-wrap flex-col sm:flex-row md:flex-col justify-around bg-primary my-4 px-8 md:px-0"
+        >
+          <div>
+            <div
+              class="flex flex-col md:flex-row justify-between items-stretch sm:items-center md:items-stretch rounded-b-2xl w-auto sm:w-1/2 md:w-auto"
+            >
+              <div
+                class="flex flex-col items-center sm:items-stretch font-lg p-4 text-2xl flex-1 text-center md:text-left"
+              >
+                <span
+                  class="text-5xl font-bold"
+                >
+                  Don Torcuato
+                  <span
+                    class="text-3xl font-light"
+                  >
+                    , 
+                    Argentina
+                  </span>
+                </span>
+                <span
+                  class="italic font-light flex-1 pt-2 font-bold capitalize"
+                >
+                  jueves 14
+                </span>
+                <span
+                  class="font-bold uppercase"
+                >
+                  cielo claro
+                </span>
+              </div>
+              <div
+                class="flex flex-row justify-center items-center bg-blue-500 pl-4 py-2 rounded-b-2xl"
+              >
+                <div
+                  class="flex flex-col justify-center font-bold text-center"
+                >
+                  <span
+                    class="text-6xl md:text-9xl"
+                  >
+                    26
+                    º
+                  </span>
+                  <span
+                    class="text-xl"
+                  >
+                    25
+                    º / 
+                    27
+                    º
+                  </span>
+                </div>
+                <img
+                  alt="cielo claro"
+                  src="http://openweathermap.org/img/wn/01d@4x.png"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-row flex-wrap justify-between align-items-center w-auto sm:w-1/2 md:w-auto pl-0 sm:pl-4 md:pl-0"
+            >
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="border-gray-200 mt-4 border-t-2 pt-8 mb-2 w-full"
+          />
+          <div>
+            <div
+              class="flex flex-row text-center justify-content-center w-full pb-2"
+            >
+              <button
+                class="
+        w-1/5 ml-2 mr-2 first:ml-0 last:mr-0 p-2 rounded-md 
+        text-white font-bold
+      "
+                data-testid="tab"
+                disabled=""
+              >
+                <span
+                  class="hidden sm:block rounded-b-"
+                >
+                  Madrid
+                </span>
+                <span
+                  class="sm:hidden block"
+                >
+                  ES
+                </span>
+              </button>
+              <button
+                class="
+        w-1/5 ml-2 mr-2 first:ml-0 last:mr-0 p-2 rounded-md 
+        text-gray-900 bg-white
+      "
+                data-testid="tab"
+              >
+                <span
+                  class="hidden sm:block rounded-b-"
+                >
+                  New York
+                </span>
+                <span
+                  class="sm:hidden block"
+                >
+                  US
+                </span>
+              </button>
+              <button
+                class="
+        w-1/5 ml-2 mr-2 first:ml-0 last:mr-0 p-2 rounded-md 
+        text-gray-900 bg-white
+      "
+                data-testid="tab"
+              >
+                <span
+                  class="hidden sm:block rounded-b-"
+                >
+                  Paris
+                </span>
+                <span
+                  class="sm:hidden block"
+                >
+                  FR
+                </span>
+              </button>
+              <button
+                class="
+        w-1/5 ml-2 mr-2 first:ml-0 last:mr-0 p-2 rounded-md 
+        text-gray-900 bg-white
+      "
+                data-testid="tab"
+              >
+                <span
+                  class="hidden sm:block rounded-b-"
+                >
+                  Roma
+                </span>
+                <span
+                  class="sm:hidden block"
+                >
+                  IT
+                </span>
+              </button>
+              <button
+                class="
+        w-1/5 ml-2 mr-2 first:ml-0 last:mr-0 p-2 rounded-md 
+        text-gray-900 bg-white
+      "
+                data-testid="tab"
+              >
+                <span
+                  class="hidden sm:block rounded-b-"
+                >
+                  Tokyo
+                </span>
+                <span
+                  class="sm:hidden block"
+                >
+                  JP
+                </span>
+              </button>
+            </div>
+            <div
+              class="flex flex-col md:flex-row justify-between items-stretch sm:items-center md:items-stretch rounded-b-2xl w-auto sm:w-1/2 md:w-auto"
+            >
+              <div
+                class="flex flex-col items-center sm:items-stretch font-lg p-4 text-2xl flex-1 text-center md:text-left"
+              >
+                <span
+                  class="text-5xl font-bold"
+                >
+                  Don Torcuato
+                  <span
+                    class="text-3xl font-light"
+                  >
+                    , 
+                    Argentina
+                  </span>
+                </span>
+                <span
+                  class="italic font-light flex-1 pt-2 font-bold capitalize"
+                >
+                  jueves 14
+                </span>
+                <span
+                  class="font-bold uppercase"
+                >
+                  cielo claro
+                </span>
+              </div>
+              <div
+                class="flex flex-row justify-center items-center bg-blue-500 pl-4 py-2 rounded-b-2xl"
+              >
+                <div
+                  class="flex flex-col justify-center font-bold text-center"
+                >
+                  <span
+                    class="text-6xl md:text-9xl"
+                  >
+                    26
+                    º
+                  </span>
+                  <span
+                    class="text-xl"
+                  >
+                    25
+                    º / 
+                    27
+                    º
+                  </span>
+                </div>
+                <img
+                  alt="cielo claro"
+                  src="http://openweathermap.org/img/wn/01d@4x.png"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-row flex-wrap justify-between align-items-center w-auto sm:w-1/2 md:w-auto pl-0 sm:pl-4 md:pl-0"
+            >
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full md:w-auto flex flex-row items-center my-4"
+                data-testid="forecast-day"
+                style="border-radius: 50px;"
+              >
+                <div
+                  class="bg-blue-500"
+                  style="border-radius: 50px;"
+                >
+                  <img
+                    alt="cielo claro"
+                    src="http://openweathermap.org/img/wn/01d.png"
+                  />
+                </div>
+                <div
+                  class="text-center flex-1 pl-4 pr-6 text-xl md:text-base"
+                >
+                  <div
+                    class="inline-block md:block capitalize"
+                  >
+                    Wednesday 13
+                  </div>
+                  <span
+                    class="inline md:hidden"
+                  >
+                     - 
+                  </span>
+                  <div
+                    class="inline-block md:block"
+                  >
+                    <span
+                      class="font-bold"
+                    >
+                      25
+                      º
+                    </span>
+                     / 
+                    <span
+                      class="font-bold"
+                    >
+                      27
+                      º
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row text-center md:text-base justify-between text-xs pt-4 pb-2 px-8 md:px-0"
+        >
+          <span>
+            Developer: 
+            <span
+              class="font-bold"
+            >
+              Matias Thompson
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
