@@ -42,7 +42,7 @@ export const cities = [
 
 export const defaultParams = {
   exclude: 'current,hourly,minutely,alerts',
-  appid: '237e758b4bb14a5808f8f65ec1a0020e',
+  appid: process.env.REACT_APP_WEATHER_API_KEY,
   units: 'metric',
   lang: 'es',
 }
